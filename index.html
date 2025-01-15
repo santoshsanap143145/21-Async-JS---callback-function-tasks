@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      1 Asynchronous JavaScript (Async JS) - callback function Tasks
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <form id="signInForm">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <button class="btn btn-sm btn-block btn-outline-primary">
+              Sign In
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 mt-5">
+          <form id="blogForm">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="title"
+                placeholder="Title Of Blog"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="content"
+                rows="4"
+                placeholder="Write your Content Here"
+              ></textarea>
+            </div>
+            <button class="btn btn-sm btn-block btn-primary">Post</button>
+          </form>
+        </div>
+        <div class="col-md-8 offset-md-2">
+          <div id="blogContainer">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/hr_call.js"></script>
+    <script src="./assets/js/blog.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
