@@ -68,7 +68,7 @@ const submitOnclick = (eve) => {
     title: titleVal.ariaValueMax,
     content: contentVal.value,
   };
-  // blogForm.reset()
+  blogForm.reset()
   createBlog(newBlog)
 };
 
